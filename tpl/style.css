@@ -1,0 +1,14 @@
+table.c3-table1{margin:10px 0;width:950px;border:1px solid #E4E4E4;border-collapse:separate;border-spacing:2px}
+table tr th{padding:0 5px;border:none;line-height:24px}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #DDD}
+table th,table td{padding:5px 5px 4px;line-height:18px;text-align:left}
+table tbody{display:table-row-group;vertical-align:middle;border-color:inherit}
+table.c3-table1 tr.even{background-color:#F6F7F8}
+table.c3-table1 tr.odd{background-color:white}
+a{color:#0069D6;text-decoration:none}
+a:hover{color:#00438A;text-decoration:underline}
+table td{font-size:12px}
+.title{font-size:12px;text-align:center}
+.keyword{width:405px;height:32px}
+#search{width:80px;height:40px}
+#icc{width:25px;height:25px;margin: -5px 0}

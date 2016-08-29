@@ -1,0 +1,18 @@
+﻿
+<script type="text/javascript" src="/zeroclipboard/ZeroClipboard.js"></script>
+<script language="JavaScript">
+	var clip = null;
+	function copy(key, cptext) {
+		clip = new ZeroClipboard.Client();
+		clip.addEventListener( "load", function(client) {
+			client.movie.title="复制链接";
+		});
+
+		clip.addEventListener( "complete", function(){
+			alert("链接复制成功！"); 
+		});
+		clip.setText(cptext);
+		clip.glue(key);
+	}
+</script>
+<td align="center"><img id="copy1" src="/logo_black.jpg" alt="复制链接地址" onmouseover="copy('copy1', '操你妹')" /></td>
