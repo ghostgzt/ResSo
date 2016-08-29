@@ -1,0 +1,59 @@
+
+.divinline{display:inline}
+
+.search_input { width: 400px }
+.search_table {
+        margin: 0 0 1em;
+        background: #FFF;
+        border-collapse: collapse;
+        border-top: 1px solid black;
+        border-bottom: 2px solid black;
+}
+
+.search_th { background-color:black; border:1px solid black; color: white}
+.row_even { background-color:#DFD; border:1px solid black; height:40px}
+.row_odd { background-color:white; border:1px solid black; height:40px}
+
+.borderit img{border: 1px solid #ccc;}
+.borderit:hover img{border: 1px solid navy;}
+.borderit:hover{color: red; /* irrelevant definition to overcome IE bug */}
+
+#search_thumb{
+width:1024;
+margin:5px 0 0 5px;
+word-wrap: break-word; word-break: break-all;
+}
+
+#thumbul{
+margin:0 0 0 2px;
+width:980;
+}
+
+#thumbul li{
+float:left;
+border:1px solid #b4b4b4;
+margin:1px 0 0 1px;
+width:244px;
+height:330px;
+list-style:none;
+}
+
+#thumbul li img{
+margin:1px 1px 1px 1px;
+width:240px;
+height:180px;
+}
+
+/* div fold and expand */
+#fold_content { background: #eee; padding: 10px; border: 1px #ccc solid; overflow: hidden; width:auto; }
+
+#fold_key {
+color: red;
+float: right;
+margin-top: 0px;
+cursor:pointer;
+}
+
+
+.graybox { background: #eee; padding: 10px; border: 1px #ccc solid; overflow: hidden; width:auto; }
+.highlight {background:yellow;}

@@ -1,0 +1,7 @@
+# 将 RewriteEngine 模式打开
+
+RewriteBase /
+
+RewriteEngine On
+
+ErrorDocument 404 /tpl/404.htm
